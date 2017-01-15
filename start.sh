@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 
 #docker stop $(docker ps -a -q)
@@ -5,7 +6,7 @@
 #docker rmi -f $(docker images -q)
 
 
-cd hyperledger
+cd app-hyperledger
 . setenv.sh
 docker-compose -f single-peer-ca.yaml up -d
 
