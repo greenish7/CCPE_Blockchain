@@ -5,7 +5,11 @@
 #docker rmi -f $(docker images -q)
 
 
-cd app-webservice
+cd hyperledger
+. setenv.sh
+docker-compose -f single-peer-ca.yaml up -d
+
+cd ../app-webservice
 docker build -t ccpe/web-serv
 
 docker run -p 9999:3000 ccpe/web-serv
