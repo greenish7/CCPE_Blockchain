@@ -10,7 +10,7 @@ var router = express.Router();
     // ================================== 
     // configure ibc-js sdk 
     // ================================== 
-    var options =   {
+/*    var options =   {
         network:{
             peers:   [{
                 "api_host": "172.17.0.2",
@@ -58,7 +58,7 @@ var router = express.Router();
     function cb_deployed(err){
         console.log('sdk has deployed code and waited');
         chaincode.query.read(['a']);
-    }
+    }*/
 
 
 /* GET home page. */
