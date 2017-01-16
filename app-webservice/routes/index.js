@@ -3,9 +3,9 @@ var router = express.Router();
 
 
  // Step 1 ================================== 
-    var Ibc1 = require('ibm-blockchain-js');
-    var ibc = new Ibc1(/*logger*/);             //you can pass a logger such as winston here - optional 
-    var chaincode = {};
+    //var Ibc1 = require('ibm-blockchain-js');
+    //var ibc = new Ibc1(/*logger*/);             //you can pass a logger such as winston here - optional 
+    //var chaincode = {};
  
     // ================================== 
     // configure ibc-js sdk 
