@@ -4,18 +4,6 @@
 		"selected_items":
 		[
 			[
-				"use",
-				"userA"
-			],
-			[
-				"res",
-				"responseString"
-			],
-			[
-				"log",
-				"log_message"
-			],
-			[
 				"user",
 				"user_a"
 			],
@@ -224,6 +212,10 @@
 				"HttpResponseRedirect"
 			],
 			[
+				"use",
+				"username"
+			],
+			[
 				"h",
 				"h1\tTag"
 			],
@@ -271,32 +263,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "routes/index.js",
-			"settings":
-			{
-				"buffer_size": 882,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 323,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app.js",
-			"settings":
-			{
-				"buffer_size": 1455,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -347,30 +313,22 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/node/app-webservice"
-	],
 	"file_history":
 	[
-		"/C/node/app/server.js",
-		"/C/Users/Gio/AppData/Roaming/Sublime Text 3/Packages/User/Node.sublime-build",
-		"/C/Users/Gio/AppData/Roaming/Sublime Text 3/Packages/User/node.sublime-build",
-		"/C/node/app/node_server",
-		"/C/Users/Gio/Envs/exchangeplatform/orderapp/templates/orderapp/place_order.html",
+		"/C/Users/Gio/Envs/exchangeplatform/exchangeplatform/settings.py",
+		"/C/Users/Gio/Envs/exchangeplatform/orderapp/templates/orderapp/order.html",
+		"/C/Users/Gio/Envs/exchangeplatform/orderapp/forms.py",
+		"/C/Users/Gio/Envs/exchangeplatform/orderapp/views.py",
+		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/views.py",
 		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/exchangeapp/includes/content-latest.html",
+		"/C/Users/Gio/Envs/exchangeplatform/orderapp/templates/orderapp/place_order.html",
 		"/C/Users/Gio/Documents/gocode/bin/hello.go",
 		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/serializers.py",
 		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/urls.py",
 		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/api.py",
 		"/C/Users/Gio/Envs/exchangeplatform/orderapp/models.py",
-		"/C/Users/Gio/Envs/exchangeplatform/orderapp/forms.py",
-		"/C/Users/Gio/Envs/exchangeplatform/orderapp/templates/orderapp/order.html",
-		"/C/Users/Gio/Envs/exchangeplatform/orderapp/views.py",
 		"/C/Users/Gio/Envs/exchangeplatform/orderapp/admin.py",
 		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/exchangeapp/pgw.html",
-		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/views.py",
-		"/C/Users/Gio/Envs/exchangeplatform/exchangeplatform/settings.py",
 		"/C/Users/Gio/Envs/exchangeplatform/orderapp/urls.py",
 		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/static/exchangeapp/css/style.css",
 		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/exchangeapp/header.html",
@@ -480,11 +438,15 @@
 		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/registration/password_reset_done.html",
 		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/registration/password_reset_confirm.html",
 		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/registration/password_reset_complete.html",
-		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/registration/registration_complete.html"
+		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/registration/registration_complete.html",
+		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/exchangeapp/registration/login.html",
+		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/exchangeapp/registration/registration_form.html",
+		"/C/Users/Gio/Envs/email_auth/ea/ea/settings.py",
+		"/C/Users/Gio/Envs/email_auth/ea/ea/urls.py"
 	],
 	"find":
 	{
-		"height": 21.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -498,6 +460,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"white",
 			"user_balance",
 			"Http",
 			"us_name",
@@ -543,108 +506,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "routes/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 882,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								734,
-								734
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "package.json",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 323,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1455,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								622,
-								622
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -679,10 +542,6 @@
 		]
 	},
 	"menu_visible": true,
-	"output.exec":
-	{
-		"height": 33.0
-	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -691,8 +550,8 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/User/Node.sublime-build",
-	"project": "node_server.sublime-project",
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
 	"replace":
 	{
 		"height": 38.0
