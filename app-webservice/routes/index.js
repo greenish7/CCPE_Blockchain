@@ -20,7 +20,7 @@ var router = express.Router();
                 "id": "app_peer"
             }],
             users:  [{
-                "enrollId": "user1",
+                "enrollId": "test_user0",
                 "enrollSecret": "MS9qrN8hFjlE"
             }],
             options: {              //this is optional 
@@ -41,8 +41,8 @@ var router = express.Router();
  
     // Step 3 ================================== 
     function cb_ready(err, cc){               //response has chaincode functions 
-        app1.setup(ibc, cc);
-        app2.setup(ibc, cc);
+        //app1.setup(ibc, cc);
+        //app2.setup(ibc, cc);
     
     // Step 4 ================================== 
         if(cc.details.deployed_name === ""){        //decide if I need to deploy or not 
