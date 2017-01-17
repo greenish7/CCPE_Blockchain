@@ -1,24 +1,24 @@
 var express = require('express');
 var router = express.Router();
 
-var g_cc;
+//var g_cc;
 
  // Step 1 ================================== 
-    var Ibc1 = require('ibm-blockchain-js');
-    var ibc = new Ibc1(/*logger*/);             //you can pass a logger such as winston here - optional 
-    var chaincode = {};
+    //var Ibc1 = require('ibm-blockchain-js');
+    //var ibc = new Ibc1(/*logger*/);             //you can pass a logger such as winston here - optional 
+    //var chaincode = {};
  
     // ================================== 
     // configure ibc-js sdk 
     // ================================== 
-    var options =   {
+/*    var options =   {
         network:{
             peers:   [{
                 "api_host": "172.17.0.2",
                 "api_port": 7050,
                 //"api_port_tls": xxx,
                 //"id": "xxxxxx-xxxx-xxx-xxx-xxxxxxxxxxxx_vpx"
-                "id": "CCXP_peer"
+                "id": "app_peer"
             }],
             users:  [{
                 "enrollId": "test_user0",
@@ -31,9 +31,9 @@ var g_cc;
             }
         },
         chaincode:{
-            zip_url: 'https://github.com/CCPX-system/CCPX-blockchain/raw/master/GOLANG/ccpx/ccpx.zip',
-            unzip_dir: '/',
-            git_url: 'https://github.com/CCPX-system/CCPX-blockchain/GOLANG/ccpx'
+            zip_url: 'https://github.com/ibm-blockchain/marbles-chaincode/archive/master.zip',
+            unzip_dir: 'marbles-chaincode-master/part2_v1.0.0',
+            git_url: 'https://github.com/ibm-blockchain/marbles-chaincode/part2_v1.0.0'
         }
     };
     
@@ -69,7 +69,7 @@ var g_cc;
           console.log('listening on *:3000');
           
         });
-}
+    }*/
 
 
 /* GET home page. */
