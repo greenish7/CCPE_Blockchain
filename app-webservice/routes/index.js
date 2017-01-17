@@ -18,7 +18,7 @@ var g_cc;
                 "api_port": 7050,
                 //"api_port_tls": xxx,
                 //"id": "xxxxxx-xxxx-xxx-xxx-xxxxxxxxxxxx_vpx"
-                "id": "app_peer"
+                "id": "CCXP_peer"
             }],
             users:  [{
                 "enrollId": "test_user0",
