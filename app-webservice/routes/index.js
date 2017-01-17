@@ -60,7 +60,7 @@ var router = express.Router();
         //chaincode.query.read(['a']);
         http.listen(3000, function(){
             console.log('listening on *:3000');
-        }
+        });
     }
 
 
