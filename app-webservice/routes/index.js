@@ -31,9 +31,9 @@ var g_cc;
             }
         },
         chaincode:{
-            zip_url: 'https://github.com/ibm-blockchain/marbles-chaincode/archive/master.zip',
-            unzip_dir: 'marbles-chaincode-master/part2_v1.0.0',
-            git_url: 'https://github.com/ibm-blockchain/marbles-chaincode/part2_v1.0.0'
+            zip_url: 'https://github.com/CCPX-system/CCPX-blockchain/raw/master/GOLANG/ccpx/ccpx.zip',
+            unzip_dir: '/',
+            git_url: 'https://github.com/CCPX-system/CCPX-blockchain/GOLANG/ccpx'
         }
     };
     
