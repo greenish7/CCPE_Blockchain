@@ -3,14 +3,14 @@ var router = express.Router();
 
 
  // Step 1 ================================== 
-    //var Ibc1 = require('ibm-blockchain-js');
-    //var ibc = new Ibc1(/*logger*/);             //you can pass a logger such as winston here - optional 
-    //var chaincode = {};
+    var Ibc1 = require('ibm-blockchain-js');
+    var ibc = new Ibc1(/*logger*/);             //you can pass a logger such as winston here - optional 
+    var chaincode = {};
  
     // ================================== 
     // configure ibc-js sdk 
     // ================================== 
-/*    var options =   {
+    var options =   {
         network:{
             peers:   [{
                 "api_host": "172.17.0.2",
@@ -57,8 +57,10 @@ var router = express.Router();
     // Step 5 ================================== 
     function cb_deployed(err){
         console.log('sdk has deployed code and waited');
-        chaincode.query.read(['a']);
-    }*/
+        //chaincode.query.read(['a']);
+        http.listen(3000, function(){
+            console.log('listening on *:3000');
+    }
 
 
 /* GET home page. */

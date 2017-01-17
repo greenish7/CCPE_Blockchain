@@ -271,6 +271,33 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "start.sh",
+			"settings":
+			{
+				"buffer_size": 364,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app-webservice/routes/index.js",
+			"settings":
+			{
+				"buffer_size": 3036,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app-webservice/package.json",
+			"settings":
+			{
+				"buffer_size": 356,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -323,10 +350,16 @@
 	},
 	"expanded_folders":
 	[
-		"/C/node"
+		"/C/node/nodeapp-ws-blockchain",
+		"/C/node/nodeapp-ws-blockchain/app-webservice",
+		"/C/node/nodeapp-ws-blockchain/app-webservice/routes"
 	],
 	"file_history":
 	[
+		"/C/node/app-webservice/routes/index.js",
+		"/D/Backup Node.js APP/node/app-webservice/routes/index.js",
+		"/C/node/app-webservice/package.json",
+		"/C/node/start.sh",
 		"/C/node/app-webservice/Dockerfile",
 		"/C/node/app/server.js",
 		"/C/Users/Gio/AppData/Roaming/Sublime Text 3/Packages/User/Node.sublime-build",
@@ -450,11 +483,7 @@
 		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/registration/activation_complete.html",
 		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/registration/password_change_done.html",
 		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/registration/password_change_form.html",
-		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/registration/registration_closed.html",
-		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/registration/password_reset_form.html",
-		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/registration/password_reset_done.html",
-		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/registration/password_reset_confirm.html",
-		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/registration/password_reset_complete.html"
+		"/C/Users/Gio/Envs/exchangeplatform/exchangeapp/templates/registration/registration_closed.html"
 	],
 	"find":
 	{
@@ -517,8 +546,106 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "start.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 364,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app-webservice/routes/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								695,
+								695
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app-webservice/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								239,
+								239
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
