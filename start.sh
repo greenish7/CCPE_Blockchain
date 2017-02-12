@@ -15,5 +15,10 @@ cd ../app-webservice
 #cd app-webservice
 docker build -t ccpe/ws .
 
+docker network connect bridge dockerhyperledger_vp_1
+docker network connect bridge dockerhyperledger_vp_2
+docker network connect bridge dockerhyperledger_vp_3
+docker network connect bridge dockerhyperledger_vp_4
+
 #docker run -p 9999:3000 -d ccpe/ws
 docker run --name ccpe_node --net=bridge -p 9999:3000 ccpe/ws
