@@ -31,9 +31,9 @@ var g_cc;
             }
         },
         chaincode:{
-            zip_url: 'https://github.com/ibm-blockchain/marbles-chaincode/archive/master.zip',
-            unzip_dir: 'marbles-chaincode-master/part2_v1.0.0',
-            git_url: 'https://github.com/ibm-blockchain/marbles-chaincode/part2_v1.0.0'
+            zip_url: 'https://github.com/pagito/CCPE-Blockchain/blob/master/chaincode/ccpe_chaincode.zip',
+            unzip_dir: '/',
+            git_url: 'https://github.com/pagito/CCPE-Blockchain/tree/master/chaincode'
         }
     };
     
