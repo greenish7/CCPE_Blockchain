@@ -1,17 +1,17 @@
 var express = require('express');
 var router = express.Router();
 
-//var g_cc;
+var g_cc;
 
  // Step 1 ================================== 
-    //var Ibc1 = require('ibm-blockchain-js');
-    //var ibc = new Ibc1(/*logger*/);             //you can pass a logger such as winston here - optional 
-    //var chaincode = {};
+    var Ibc1 = require('ibm-blockchain-js');
+    var ibc = new Ibc1(/*logger*/);             //you can pass a logger such as winston here - optional 
+    var chaincode = {};
  
     // ================================== 
     // configure ibc-js sdk 
     // ================================== 
-/*    var options =   {
+    var options =   {
         network:{
             peers:   [{
                 "api_host": "172.17.0.2",
@@ -47,11 +47,12 @@ var router = express.Router();
 
     // Step 4 ==================================
         if(true){                //decide if I need to deploy or not
-            g_cc = cc;
+            console.log("Ready, but do not deploy yet");
+            /*g_cc = cc;
             cc.deploy('init', ['99'], {delay_ms: 30000}, function(e){                       //delay_ms is milliseconds to wait after deploy for conatiner to start, 50sec recommended
                 console.log("success deployed");
                 cb_deployed();
-            });
+            });*/
         }
         else{
             g_cc = cc;
@@ -69,7 +70,7 @@ var router = express.Router();
           console.log('listening on *:3000');
           
         });
-    }*/
+    }
 
 
 /* GET home page. */
